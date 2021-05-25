@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1"  />
+    <title>MelodyYan</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="">
+  </head>
+  <body>
+
+    
+    <div class="nav-mobile">
+      <ul class="nav-ul-mobile">
+        <li class="nav-item-mobile"><a href="">Home</a></li>
+        <li class="nav-item-mobile"><a href="">Projects</a></li>
+        <!-- <li class="nav-item-mobile"><a href="">Skills</a></li> -->
+        <li class="nav-item-mobile"><a href="">About</a></li>
+        <li class="nav-item-mobile"><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <nav class="navbar">
+      <div class="nav-logo">Portfolio</div>
+      <button id="hamburger"><i class="fas fa-bars"></i></button>
+      <ul class="nav-ul">
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">Projects</a></li>
+        <!-- <li class="nav-item"><a href="">Skills</a></li> -->
+        <li class="nav-item"><a href="">About</a></li>
+        <li class="nav-item"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="section-welcome scroll">
+      <div id="particles-js"></div>
+      <div class="welcome-bg absolute">
+        <img src="imgs/hero-image8.jpeg" alt="Welcome-background" />
+      </div>
+      <div class="welcome">
+        <div class="welcome-msg">
+          <p>Hello,</p>
+          <p class="p-bigger">My name is Melody Yan</p>
+          <p>a front end web developer</p>
+        </div>
+        <div class="welcome-project">
+          <p class="view-projects">View My Projects</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section-projects section scroll">
+      <div class="section-header">My Projects</div>
+      <div class="projects-container">
+        <div class="project">
+          <div class="project-img">
+            <img src="imgs/assets/robofriends.png" alt="project" />
+          </div>
+          <div class="project-info">
+            <p class="project-header">RoboFriends</p>
+            <div class="project-desc">
+              This is a responsive web application using the React framework. Besides on React, it is also using the Robohash to get unique robot avatars and JSONPlaceholder APIs to create a series of contact cards for a list of ROBO friends. Tachyons CSS toolkit is used for quick styling. Another feature is the search box which dynamically filters the displayed contacts card based on the content entered in the search box. <em>(React, Tachyons)</em>
+            </div>
+            <div class="project-buttons">
+              <a href="https://cycawy.github.io/robofridends/" target="_blank"><button>See Live</button></a>
+              <a href="https://github.com/cycawy/robofridends" target="_blank">
+                <button>Source code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img">
+            <img src="imgs/assets/pandaMuseum.png" alt="project" />
+          </div>
+          <div class="project-info">
+            <p class="project-header">Panda Museum</p>
+            <div class="project-desc">
+              HTML/CSS/Javascript are used to designed and implemented a music player, with each play feature like play/pause/forward/backward, and the progress bar. <em>(HTML 5 Audio API)</em>
+            </div>
+            <div class="project-buttons">
+              <a href="https://cycawy.github.io/pandaMuseum/" target="_blank"> <button>See Live</button></a>
+              <a href="https://github.com/cycawy/pandaMuseum" target="_blank">
+                <button>Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img">
+            <img src="imgs/assets/joke teller.png" alt="project" />
+          </div>
+          <div class="project-info">
+            <p class="project-header">Joke Teller</p>
+            <div class="project-desc">
+              inspired by the virtual assistants like siri, this project build a little cute robot to tell us a joke out loud when he is asked to. A joke API is called to get a random joke and the joke is passed to a text-to-speed API to tell user the joke. Responsive design and styling. 
+                    <em>(Fetch, Async/Await, Joke API, Text-to-Speech)</em>
+            </div>
+            <div class="project-buttons">
+              <a href="https://cycawy.github.io/joke-teller-project" target="_blank"><button>See Live</button></a>
+              <a href="https://github.com/cycawy/joke-teller-project" target="_blank">
+                <button>Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img">
+            <img src="imgs/assets/project2.png" alt="project" />
+          </div>
+          <div class="project-info">
+            <p class="project-header">Music Player</p>
+            <div class="project-desc">
+              HTML/CSS/Javascript are used to designed and implemented a music player, with each play feature like play/pause/forward/backward, and the progress bar. <em>(HTML 5 Audio API)</em>
+            </div>
+            <div class="project-buttons">
+              <a href="https://cycawy.github.io/music-player-project/" target="_blank"> <button>See Live</button></a>
+              <a href="https://github.com/cycawy/music-player-project" target="_blank">
+                <button>Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- <section class="section-skills section scroll">
+      <div class="section-header">My Skills</div>
+      <div class="skills-container">
+        <div class="skills-desc">
+          <p>
+            I create my projects using JavaScript, HTML5 and CSS3. For back-end I use node.js with express.js. Many of my web applications need to be connected to a database, so I had to learn how to
+            use MongoDB and Mongoose.
+          </p>
+          <p>
+            I use Sass to make my work more fluent. I assign great importance to ensure that all projects are fully responsive. I know how to use Bootstrap. Also, I can work with jQuery, but I tend to
+            not include it in my projects because I try to use JavaScript as an alternative. My next goal is to learn React.js
+          </p>
+        </div>
+        <div class="skills">
+          <div class="skills-row">
+            <div class="skill-icon">
+              <img src="" alt="HTML5" />
+              <div class="skill-text">HTML5</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="CSS3" />
+              <div class="skill-text">CSS3</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="JavaScript" />
+              <div class="skill-text">JavaScript</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="node.js" />
+              <div class="skill-text">Node.js</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="sass" />
+              <div class="skill-text">Sass</div>
+            </div>
+          </div>
+          <div class="skills-row">
+            <div class="skill-icon">
+              <img src="" alt="jQuery" />
+              <div class="skill-text">jQuery</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="Github" />
+              <div class="skill-text">GitHub</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="Bootstrap" />
+              <div class="skill-text">Bootstrap</div>
+            </div>
+            <div class="skill-icon">
+              <img src="" alt="MongoDB" />
+              <div class="skill-text">MongoDB</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-learning">
+        <p>Currently learning</p>
+
+        <div class="skills-row learning">
+          <div class="skill-icon">
+            <img src="" alt="react" />
+            <div class="skill-text">React</div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- About Me -->
+    <section id="about" class="section-about section scroll">
+      <div class="section-header">About Me</div>
+      <div class="about-container">
+        <!-- <div class="about-desc">
+          <p>
+            I started to learn Web-Development on my master's degree as a hobby and variation from my studies. With time I got involved and decided to learn more and try to create my projects. When I
+            saw how much it absorbs me I decided to make it my main pursuit.
+          </p>
+          <p>
+            Learning web-development gave me a chance to polish my English skills and logical thinking. Additionally, I observed that I can organize my work and set myself more and more ambitious and
+            challenging goals. I feel confident at every stage of creating a web application, and I derive the greatest satisfaction from combining all the dots and seeing that my idea works.
+          </p>
+        </div>
+        <div class="about-img">
+          <div class="img">
+            <img src="" alt="" />
+            <div></div>
+          </div>
+          <a href="/files/front end web developer resume.pdf" download="MelodyYan-resume.pdf">
+            <button><i class="far fa-file"></i>My Resume</button></a>
+          
+        </div> -->
+        <div class="about-desc">
+          <div data-aos="fade-right">
+            <ul>
+              <h2>Development Skills</h2>
+              <li><h3>Proficient:</h3></li>
+              <li>HTML / CSS</li>
+              <li>Javascript</li>
+              <li>Version Control (Git)</li>
+              <li>Responsive Design</li>
+              <li><h3>Familiar:</h3></li>
+              <li>React</li>
+              <li>API Integration</li>
+              <li>Node.js / NPM</li>
+              <li>WordPress</li>
+              <li>Sass</li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="about-img">
+          <img src="imgs/hero-image2.jpeg">
+          <a href="/files/front end web developer resume.pdf" target="_blank">
+            <button><i class="far fa-file"></i>My Resume</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact ME -->
+    <section id="contact" class="section-contact section">
+      
+      <div class="section-header scroll">Contact</div>
+      <div class="contact-container">
+        
+          <div class="contact">
+            <p>
+              I am open to new opportunities so please contact me through any of the
+              below:
+            </p>
+            <ul>
+              <li>
+                <h3>
+                  <a href="" target="_blank"
+                    ><i class="fas fa-phone-volume"></i>408-209-6605</a
+                  >
+                </h3>
+              </li>
+              
+              <li>
+                <h3>
+                  <a href="mailto:cycawy@gmail.com" target="_blank"
+                    ><i class="fas fa-envelope"></i>cycawy@gmail.com</a
+                  >
+                </h3>
+              </li>
+              
+              <li>
+                <h3>
+                  <a href="https://github.com/cycawy" target="_blank"
+                    ><i class="fab fa-github"></i>github.com/cycawy</a
+                  >
+                </h3>
+              </li>
+            </ul>
+          </div>
+       
+    
+
+        <!-- <div class="contact-form">
+          <div class="contact-text">Contact me here or <span class="email">copy my e-mail <i class="far fa-copy"></i> </span> </div>
+          <form action="/" method="POST" name="PortofiloMail">
+            <div class="contact-input">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required/>
+            </div>
+            <div class="contact-input">
+              <label for="email">E-mail</label>
+              <input type="text" name="email" id="email" required/>
+            </div>
+            <div class="contact-input">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" id="subject" required/>
+            </div>
+            <div class="contact-input">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="5" required></textarea>
+            </div>
+            <button>Send Message</button>
+          </form>
+        </div>
+        <div class="contact-desc">
+          <div class="contact-info">
+            <div class="contact-info-header"><i class="fas fa-user"></i>Name</div>
+            <div class="contact-info-desc">Bartosz Czupryna</div>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-header"><i class="far fa-envelope"></i>email</div>
+            <div class="contact-info-desc">bartosz.czupryna@gmail.com</div>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-header"><i class="fas fa-map-marker-alt"></i>Location</div>
+            <div class="contact-info-desc">Kraków, Poland</div>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-links">
+              <a href="https://github.com/gawinger" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/bartosz-czupryna-4877b8207
+              " target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div> 
+        </div>-->
+      </div>
+    </section>
+    <script src="/navbar.js"></script>
+    <script src="/script.js"></script>
+    
+    <footer>&copy Created by Melody Yan 2021</footer>
+  </body>
+</html>
