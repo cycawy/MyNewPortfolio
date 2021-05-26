@@ -323,12 +323,12 @@ nav {
 }
 
 .about-desc{
-  width: 50%;
+  width: 40%;
 }
 .about-img-wrapper{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   align-items: center;
   justify-content: flex-end;
 }
@@ -559,6 +559,9 @@ footer{
   
   .about-container{
     flex-direction: column;
+  }
+  .about-desc{
+    padding-bottom: 20px;
   }
   /* .about-img .img {
     padding-top: 50px;
