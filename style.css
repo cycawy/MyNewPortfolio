@@ -43,7 +43,7 @@ textarea:focus {
 nav {
   position: fixed;
   top: 0;
-  background-image: linear-gradient(55deg, rgb(119, 34, 115), rgb(20, 5, 20));;
+  background-image: linear-gradient(55deg, rgb(110, 41, 107), rgb(54, 8, 54));;
   width: 100vw;
   z-index: 100;
   display: flex;
@@ -336,12 +336,13 @@ nav {
   height: 80%;
   width: 100%;
   object-fit: cover;
+  /* padding-bottom: 20px; */
 }
 
 .resume-btn{
   
   width: 150px;
-  margin-top: 5px;
+  margin-top: 30px;
   color: white;
   padding: 10px 18px;
   background-image: linear-gradient(55deg, rgb(119, 34, 115), rgb(20, 5, 20));

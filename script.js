@@ -8,7 +8,7 @@ const navItemsMobile = document.querySelectorAll(".nav-item-mobile");
 const navHamItems = document.querySelectorAll(".nav-ham-item");
 const scrollSection = document.querySelectorAll(".scroll");
 const projects = document.querySelectorAll(".project");
-const messageProjects = document.querySelector(".view-projects");
+const viewProjects = document.querySelector(".view-projects");
 
 const facebook = document.querySelector(".fa-facebook");
 const github = document.querySelector(".fa-github");
@@ -23,10 +23,10 @@ const toggleHamburger = () => {
   hamburgerOn = true;
 };
 
-messageProjects.addEventListener("click", () => {
-  console.log('hit1');
+viewProjects.addEventListener("click", () => {
+  
   window.scrollTo({
-    top: scrollSection[1].offsetTop,
+    top: scrollSection[2].offsetTop-60,
     behavior: "smooth",
   });
 });
@@ -52,11 +52,8 @@ const addScrollAnimation = (el) => {
       e.preventDefault();
       // console.log(scrollSection[index]);
        let top = scrollSection[index].offsetTop - 60;
-       console.log("top is: ", top);
-      // Changing offsetTop for two sections
-      // if (index === 2) {
-      //   top -= 30;
-      // }
+     
+     
       if (hamburgerOn) {
         navbarHam.classList.toggle("show-hamNav");
       }
@@ -81,4 +78,6 @@ projects.forEach((el) => {
     e.target.style.transition = "all 2s";
   });
 });
+
+AOS.init();
 
