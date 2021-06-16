@@ -79,5 +79,5 @@ projects.forEach((el) => {
   });
 });
 
-AOS.init();
+
 
